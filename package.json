@@ -1,0 +1,27 @@
+{
+	"name": "procedural-art-madres-plaza-mayo",
+	"version": "1.0.0",
+	"description": "Creador de imagenes procedurales.",
+	"author": "Lucas Recoaro",
+	"license": "AGPL-3.0-only",
+	"main": "src/index.js",
+	"repository": "github:ao-org/ao20-api",
+	"scripts": {
+		"start": "node src/index.js",
+		"test": "jest --detectOpenHandles",
+		"dev": "npx nodemon src/index.js"
+	},
+	"dependencies": {
+		"canvas": "^2.8.0",
+		"cors": "^2.8.5",
+		"dotenv": "^10.0.0",
+		"eventemitter3": "^4.0.7",
+		"express": "^4.17.1",
+		"express-rate-limit": "^5.2.6",
+		"express-validator": "^6.12.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.7",
+		"supertest": "^6.1.3"
+	}
+}
